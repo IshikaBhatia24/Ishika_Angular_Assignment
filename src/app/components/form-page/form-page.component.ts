@@ -7,7 +7,6 @@ import { TodoService } from '../../services/todo.service';
   template: `
     <div class="form-container">
       <h1>Add New Todo</h1>
-      <p>Use this reactive form to add a new todo item with validation.</p>
       
       <form [formGroup]="todoForm" (ngSubmit)="onSubmit()" class="todo-form">
         <div class="form-group">
