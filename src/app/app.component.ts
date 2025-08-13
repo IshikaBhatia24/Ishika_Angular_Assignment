@@ -17,5 +17,5 @@ import { Component } from '@angular/core';
   `]
 })
 export class AppComponent {
-  title = 'todo-app';
+  title = 'recipe-app';
 }

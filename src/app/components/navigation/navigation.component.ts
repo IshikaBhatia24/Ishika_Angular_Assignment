@@ -5,12 +5,12 @@ import { Component } from '@angular/core';
   template: `
     <nav class="navbar">
       <div class="nav-brand">
-        <h2>Todo App</h2>
+        <h2>Recipe App</h2>
       </div>
       <ul class="nav-links">
         <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
         <li><a routerLink="/api-data" routerLinkActive="active">API Data</a></li>
-        <li><a routerLink="/form" routerLinkActive="active">Add Todo</a></li>
+        <li><a routerLink="/form" routerLinkActive="active">Add Recipe</a></li>
       </ul>
     </nav>
   `,
