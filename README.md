@@ -1,28 +1,52 @@
-# TodoApp
+# Recipe Book App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
+## Description
 
-## Development server
+This is a simple Angular application for managing recipes. Users can:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- View a list of recipes  
+- Mark recipes as favorites  
+- Add new recipes using a form  
+- Fetch recipes from an API  
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Responsive UI with Angular components  
+- Recipe management with favorites functionality  
+- Form validation for adding new recipes  
+- Fetching data from an external API  
+- Routing between Home, API Data, and Form pages  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repo:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   
+2. Navigate into the project folder:
 
-## Further help
+   ```bash
+   cd your-repo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# angular-assignment-baali123
+3. Install dependencies:
+
+   ```bash
+   npm install
+
+4. Run the app locally:
+
+    ```bash
+   ng serve
+
+5. Open your browser and go to:
+
+    ```bash
+   http://localhost:4200
+
+
